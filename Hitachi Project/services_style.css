@@ -1,0 +1,153 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    background-image: url(sky-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    font-family: Lato;
+    font-weight: 300;
+    position:relative;
+    height:100vh;
+    color: #555;
+}
+.wrapper {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: darkblue;
+}
+.menuBar {
+    width:100%;
+    top:auto;
+    height: 25px;
+    padding:0px;
+    color: white;
+}
+a {text-decoration:none;}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+.home {
+    font-size: 20px;   
+    left:510px;
+    text-transform:none;
+    letter-spacing: 1px;
+    font-weight:1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+}
+.home:hover {
+    font-size: 120%;
+}
+.services {
+    font-size: 20px;
+    left:610px;
+    text-transform:none;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+}
+.services:hover {
+    font-size: 120%;
+}
+.about {
+    font-size: 20px;
+    left: 730px;
+    text-transform:none;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+}
+.about:hover {
+    font-size: 120%;
+}
+.testimonials {
+    font-size: 20px;
+    left:830px;
+    text-transform:none;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+}
+.testimonials:hover {
+    
+    font-size: 120%;
+}
+.fa {
+    padding:10px;
+    font-size: 30px;
+    color: white;
+    width: 30px;
+    text-align: center;
+    text-decoration:none;
+}
+.fa:hover {
+    opacity: 0.6;
+    font-size: 150%;
+}
+.fa-facebook {
+    transform: translateX(1050px)
+}
+.fa-twitter {
+    transform: translateX(1060px)
+}
+.fa-linkedin {
+    transform: translateX(1070px)
+}
+.logo {
+    top:5px;
+    position:absolute;
+}
+.heading{
+    width:400px;
+    height: 80px;
+    text-align: center;
+    transform: translate(440px,90px);
+    font-family: Wendy One;
+    font-size: 45px;
+    font-weight:bold;
+    letter-spacing: 4px;
+}
+.repair {
+    top:135px;
+    position:absolute;
+    transform: translateX(35%);
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
